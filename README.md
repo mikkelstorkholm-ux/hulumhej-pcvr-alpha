@@ -20,8 +20,9 @@ Hulumhej is a Windows VR player for Stash. It runs on the PC and streams to Stea
 Use Windows x64 with OpenGL 4.5, SteamVR as your OpenXR runtime, a connected headset, and a reachable Stash server. Steam Frame and an RTX 4080 are the reference setup. Other headset and GPU combinations are welcome in the alpha.
 
 1. Extract the Windows alpha ZIP into a folder you can write to. Keep its files together.
-2. Open `library.json` and set `url` to your Stash server's address. Start with a test library if you prefer.
-3. Connect the headset, start SteamVR, and double-click **Start HH.cmd**. Select Hulumhej in your headset.
+2. Double-click **Install HH.cmd**. Setup downloads the pinned FFmpeg, VLC, and MSYS2 runtime files from their publishers, checks their SHA-256 hashes, and puts them in the app folder.
+3. Open `library.json` and set `url` to your Stash server's address. Start with a test library if you prefer.
+4. Connect the headset, start SteamVR, and double-click **Start HH.cmd**. Select Hulumhej in your headset.
 
 **Native 3D is selected on startup in the Native 3D package.** In the MainCube menu, open **3D** to choose **2D**, **Native 3D**, or **FlatVR**. FlatVR uses a separate installation and its virtual display. If automatic activation needs help, Hulumhej asks you to click **START** in FlatVR.
 
